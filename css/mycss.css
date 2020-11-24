@@ -1,0 +1,145 @@
+      body{
+        background-image: url("../images/background.jfif");
+        background-position: center center;
+        background-attachment: fixed;
+        overflow-y: scroll;
+      }
+      body>img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+      /*巨幕*/
+      .jumbotron{
+        padding: 0;
+        margin-bottom: 0;
+        background-color: rgba(0,0,0,0);
+      }
+      .jumbotron h3,.jumbotron h2,.nav.nav-tabs li a,.title{
+        color: #FF7919FF;
+      }
+      /*导航条*/
+      #bs-example-navbar-collapse-1{
+        padding: 0;
+      }
+      /*轮播图*/
+      .carousel-inner p{
+        position: absolute;
+        background:rgba(245,245,245,0.8);
+        z-index: 2;
+        left: 0;
+        bottom: -15px;
+        width: 100%;
+      }
+      .carousel img{
+        border: whitesmoke solid;
+        margin: auto;
+      }
+
+      /*列表标题*/
+      .list-group{
+        margin: auto;
+      }
+      .more,small{
+        position: absolute;
+        left: 80%;
+        top: 10px;
+        padding: 0;
+      }
+      .panel-body{
+        text-align: center;
+      }
+      a.list-group-item:hover, .panel-body h4:hover,a.hover{
+        color: #FF7919FF;
+        cursor: pointer;
+      }
+      .list-group-item{
+        border: 0;
+      }
+      /*快讯内容区*/
+      .content{
+        background: white;
+        height: 500px;
+        border: 1px solid whitesmoke ;
+        border-radius: 2%;
+      }
+      .content img{
+        width: 100%;
+        border-radius: 2%;
+        margin: auto;
+      }
+      /*快讯左侧列表*/
+      .hidden{
+        display: none;
+      }
+      /*分页*/
+      .page{
+        text-align: center;
+      }
+      /*图片组*/
+      .img-group{
+        width: auto;
+        float: left;
+      }
+      .img-group img,.img-group button{
+        cursor: pointer;
+        margin: 5px;
+        border: #46b8da solid;
+        border-radius:5% ;
+        width: 180px;
+        height: 100px;
+      }
+      .img-group img:hover,.img-group button:hover{
+        border: #FF7919FF solid;
+        color: #FF7919FF;
+      }
+      /*友情链接*/
+      #friendLink a{
+        display: inline;
+      }
+      /*登录*/
+      #user{
+        position: absolute;
+        left: 80%;
+        top: 20px;
+        font-size: 20px;
+        color: #46b8da;
+        cursor: pointer;
+        z-index: 17;
+      }
+      /*登录按钮*/
+      #user1{
+        position: absolute;
+        left: 50%;
+        font-size: 20px;
+        color: #46b8da;
+        cursor: pointer;
+      }
+      /*注册按钮*/
+      #user2{
+        position: absolute;
+        left: 60%;
+        font-size: 20px;
+        color: #46b8da;
+        cursor: pointer;
+      }
+      #user:hover,#user1:hover,#user2:hover{
+        color: #FF7919FF;
+      }
+      /*登录背景*/
+      #login{
+        position: absolute;
+        top: 0;
+        z-index: 16;
+        height: 200px;
+        width: 100%;
+        background: #bce8f1;
+        opacity:0.8;
+        display: none;
+      }
+      /*表单*/
+      #login>div{
+        position: absolute;
+        top: 45px;
+      }
